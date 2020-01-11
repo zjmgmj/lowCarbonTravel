@@ -10110,6 +10110,11 @@ ws@^6.0.0:
   dependencies:
     async-limiter "~1.0.0"
 
+xe-utils@^2.3.0:
+  version "2.3.0"
+  resolved "https://registry.npm.taobao.org/xe-utils/download/xe-utils-2.3.0.tgz#5db56893c39b6e65c267997a607acbac887c9e96"
+  integrity sha1-XbVok8ObbmXCZ5l6YHrLrIh8npY=
+
 xml-name-validator@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/xml-name-validator/-/xml-name-validator-3.0.0.tgz#6ae73e06de4d8c6e47f9fb181f78d648ad457c6a"
