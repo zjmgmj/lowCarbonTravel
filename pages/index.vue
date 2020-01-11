@@ -1,15 +1,12 @@
 <template lang="pug">
-div
-  Head
+no-ssr
+  nuxt-view
+    Head
 </template>
 
 <script>
-import Head from '~/components/Head.vue'
-
 export default {
-  components: {
-    Head
-  }
+  middleware: 'indexJump'
 }
 </script>
 
