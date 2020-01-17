@@ -7,11 +7,11 @@ body, html
   // user-select none
   font-size $fontsize-medium
   // font-size 14px / 1.5 '微软雅黑', '宋体', arial
-  background #f6f6f6
+  background #f0edf1
   color #333
 *
   -webkit-top-highlight-color transparent
-  box-sizing border-box !important
+  box-sizing border-box !important  
 body
   font 14px / 1.5 '微软雅黑', '宋体', arial
   width 100%
@@ -74,11 +74,11 @@ for num in (0 .. count)
     -webkit-flex 1
     -ms-flex 1
     flex 1
-.flex-center
+.align-center
   align-items center
-.flex-end
+.align-end
   align-items flex-end
-.flex-stretch
+.align-stretch
   align-items stretch
 .flex-content-end
   justify-content flex-end
@@ -128,7 +128,7 @@ input.placeholder-white::-webkit-input-placeholder
   padding 0px 0px !important
 .inline
   display inline-block
-.relative-position
+.relative
   position relative
 .scroll
   overflow auto
@@ -262,6 +262,8 @@ input.placeholder-white::-webkit-input-placeholder
   background $color-background
 .bg-primary
   background $color-main !important
+.bg-green
+  background $color-main !important  
 .bg-white
   background $color-white !important
 .bg-f9
